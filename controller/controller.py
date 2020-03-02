@@ -132,7 +132,6 @@ class Controller:
 
     def return_menu(self):
         inp = input('Deseas elegir otra opción? \ns: Si \nn: No \n')
-        
         if inp == 's':
             self.menu()
         elif inp == 'n': 
